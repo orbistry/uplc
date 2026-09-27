@@ -1,0 +1,2 @@
+# Ignore all .uplc files from the language stats
+*.uplc linguist-vendored

@@ -2,11 +2,13 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "uplc",
   "compatibility_date": "2026-04-12",
-  "compatibility_flags": ["nodejs_als"],
+  "compatibility_flags": [
+    "nodejs_als"
+  ],
   "main": ".svelte-kit/cloudflare/_worker.js",
   "routes": [
     {
-      "pattern": "uplc.utxo.company",
+      "pattern": "uplc.orbistry.xyz",
       "custom_domain": true,
     },
   ],
